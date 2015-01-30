@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY" >
+
+        <ImageView
+            android:id="@+id/company_logo"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff"
+            android:src="@drawable/title_bg" />
+
+        <Button
+            android:id="@+id/content_menu_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_btn" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/company_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonshape2"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="Delegate Info"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title" >
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="suny hu" />
+
+        <View
+            android:id="@+id/lin_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_detail_name"
+            android:background="#36A8DC" />
+
+        <TextView
+            android:id="@+id/tv_detail_email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/lin_1"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="suny hu" />
+
+        <View
+            android:id="@+id/lin_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_detail_email"
+            android:background="#36A8DC" />
+
+        <TextView
+            android:id="@+id/tv_detail_company"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/lin_2"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="suny hu" />
+
+        <View
+            android:id="@+id/lin_3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_detail_company"
+            android:background="#36A8DC" />
+
+        <TextView
+            android:id="@+id/tv_detail_country"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/lin_3"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="suny hu" />
+
+        <View
+            android:id="@+id/lin_4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_detail_country"
+            android:background="#36A8DC" />
+
+        <TextView
+            android:id="@+id/tv_detail_position"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/lin_4"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="suny hu" />
+
+        <View
+            android:id="@+id/lin_5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_detail_position"
+            android:background="#36A8DC" />
+
+        <TextView
+            android:id="@+id/tv_detail_Welcome"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/lin_5"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Registered for Session 1" />
+    </RelativeLayout>
+
+</RelativeLayout>
